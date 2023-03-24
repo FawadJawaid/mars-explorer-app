@@ -71,4 +71,8 @@ dependencies {
 
     // For Navigation animation
     implementation "com.google.accompanist:accompanist-navigation-animation:$accompanist_version"
+
+    // For Junit
+    testImplementation "junit:junit:$junit_version"
+    androidTestImplementation "androidx.test.ext:junit:$junit_ext_version"
 }
