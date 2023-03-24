@@ -15,7 +15,6 @@ dependencyResolutionManagement {
 rootProject.name = "Mars Explorer"
 include ':app'
 include ':data:remote'
-include ':core'
 include ':core:common'
 include ':data:model'
 include ':data:repository'
