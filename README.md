@@ -1,10 +1,10 @@
 # Mars Explorer App
 Hello everyone,
 
-I hope you are doing well. Welcome to this project, if you are a space lover and want to learn more about the different mars photos then you are at the right place. :blush: This is the [Jetpack Compose](https://developer.android.com/jetpack/compose) Android app which shows you different mars phtos. And let you see the details of the
+I hope you are doing well. Welcome to this project, if you are a space lover and want to learn more about the different mars photos then you are at the right place. :blush: This is the [Jetpack Compose](https://developer.android.com/jetpack/compose) modularized Android app which shows you different mars phtos. And let you see the details of the
 every photo. Mars Explorer app is available in both light and dark themes.
 
-The app uses the [NASA Mars Rover Photos API](https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY) to load data into the app.
+The app uses the [NASA Mars Rover Photos API](https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY) to load data into the app. You can read more about of [NASA API](https://api.nasa.gov/).
 
 Minimum SDK Version: 24
 
@@ -77,7 +77,7 @@ I have tried to cover all three layers i.e. UI, data, and domain with our test c
 
 The Use Cases are tested to ensure whether they call the right repository methods.
 
-In the UI layer, I have tested our state holder classes i.e. ViewModels. As well as one instrumented test for tesing the item click behaviour.
+In the UI layer, I have tested our state holder classes i.e. ViewModels. As well as one instrumented test for tesing the item click behaviour for example, **ItemMarsPhotoCardTest**.
 
 ## :computer:  Demo
 
