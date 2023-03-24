@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Mars Explorer"
+include ':app'
+include ':data:remote'
+include ':core'
+include ':core:common'
+include ':data:model'
+include ':data:repository'
+include ':domain:usecase'
+include ':feature:listscreen'
+include ':core:design'
+include ':core:utils'
+include ':feature:detailscreen'
